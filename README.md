@@ -1,2 +1,0 @@
-# ohope
-ohope homepage dist
