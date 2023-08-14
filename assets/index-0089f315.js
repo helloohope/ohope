@@ -91,7 +91,89 @@ BINH DUONG PROVINCE ,VIETNAM  越南胡志明市平阳省
 
 【Salary package  薪资待遇】
 Company will offer market competitive salary package to qualified candidate  公司会提供有市场竞争力的薪资待遇给合资格的应聘者 
-`,toggle_job:!1}]}}}}}},components:{pageHeader:Au,pageFooter:Cu,pageScrolltop:Pu}},Iu={id:"page_container"};function Lu(e,t,n,r,s,o){const i=Pe("pageHeader"),c=Pe("RouterView"),l=Pe("pageFooter"),a=Pe("pageScrolltop");return z(),Q(le,null,[G(i,{router_list:s.pageData.router_list,header:s.pageData.page.header,language:s.language},null,8,["router_list","header","language"]),H("div",Iu,[G(c,{router_view:s.pageData.router_view},null,8,["router_view"])]),G(l,{router_list:s.pageData.router_list,footer:s.pageData.page.footer},null,8,["router_list","footer"]),G(a,{scroll_top:s.pageData.page.scroll_top},null,8,["scroll_top"])],64)}const ku=He(Su,[["render",Lu]]),$u="modulepreload",Mu=function(e){return"/"+e},lo={},St=function(t,n,r){if(!n||n.length===0)return t();const s=document.getElementsByTagName("link");return Promise.all(n.map(o=>{if(o=Mu(o),o in lo)return;lo[o]=!0;const i=o.endsWith(".css"),c=i?'[rel="stylesheet"]':"";if(!!r)for(let u=s.length-1;u>=0;u--){const h=s[u];if(h.href===o&&(!i||h.rel==="stylesheet"))return}else if(document.querySelector(`link[href="${o}"]${c}`))return;const a=document.createElement("link");if(a.rel=i?"stylesheet":$u,i||(a.as="script",a.crossOrigin=""),a.href=o,document.head.appendChild(a),i)return new Promise((u,h)=>{a.addEventListener("load",u),a.addEventListener("error",()=>h(new Error(`Unable to preload CSS for ${o}`)))})})).then(()=>t())};const Nu={data(){return{banner:this.banner}},props:{banner:Object}},Bu={id:"banner"},Fu={class:"noswiper"},Du=["src"],Hu={key:0,class:"img_hover"},ju=["src"],Uu={key:1,class:"text_hover"};function zu(e,t,n,r,s,o){return z(),Q("section",Bu,[H("div",Fu,[H("img",{src:n.banner.url,alt:"",class:Xe({img_blur_heavy:!n.banner.hover_img})},null,10,Du),n.banner.hover_img?(z(),Q("div",Hu,[H("img",{src:n.banner.hover_img,alt:""},null,8,ju),(z(!0),Q(le,null,Fe(n.banner.hover,(i,c)=>(z(),Q("p",{key:c},Ce(i),1))),128))])):jt("",!0),n.banner.hover_img?jt("",!0):(z(),Q("div",Uu,[(z(!0),Q(le,null,Fe(n.banner.hover,(i,c)=>(z(),Q("p",{key:c,class:Xe("text_hover_p"+(c+1))},Ce(i),3))),128))]))])])}const Ku=He(Nu,[["render",zu],["__scopeId","data-v-c9a19ddb"]]);const Wu={data(){return{}},props:{about:Object}},Qu=e=>(Uo("data-v-b76f46c8"),e=e(),zo(),e),Vu={id:"about"},qu={class:"wrap"},Ju={class:"left shadow"},Yu={class:"title"},Gu=Qu(()=>H("div",{class:"gap_line"},[H("div",{class:"gap_dot"})],-1)),Xu={class:"right"},Zu={alt:""};function ef(e,t,n,r,s,o){const i=qr("lazy");return z(),Q("section",Vu,[H("div",qu,[H("div",Ju,[H("p",Yu,Ce(n.about.about_title),1),Gu,(z(!0),Q(le,null,Fe(n.about.about_description,(c,l)=>(z(),Q("p",{class:"desc",key:l},Ce(c),1))),128)),H("p",{class:"more",onClick:t[0]||(t[0]=c=>this.$router.push("/story"))},Ce(n.about.about_more),1)]),H("div",Xu,[Ht(H("img",Zu,null,512),[[i,n.about.about_img.url]]),H("span",null,Ce(n.about.about_img.hover),1)])])])}const tf=He(Wu,[["render",ef],["__scopeId","data-v-b76f46c8"]]);const nf={data(){return{}},props:{title:String}},rf=e=>(Uo("data-v-3f7d560d"),e=e(),zo(),e),sf={class:"section_title"},of={class:"title"},lf=rf(()=>H("div",{class:"gap_line"},[H("div",{class:"gap_dot"})],-1));function cf(e,t,n,r,s,o){return z(),Q("div",sf,[H("p",of,Ce(n.title),1),lf])}const Ei=He(nf,[["render",cf],["__scopeId","data-v-3f7d560d"]]);const af={data(){return{}},props:{atmo:Object},components:{pageSectionTitle:Ei}},uf={id:"atmosphere"},ff={class:"wrap"},df=["onClick"],hf={alt:""},pf={class:"img_hover"};function gf(e,t,n,r,s,o){const i=Pe("pageSectionTitle"),c=qr("lazy");return z(),Q("section",uf,[H("div",ff,[G(i,{title:n.atmo.title},null,8,["title"]),H("ul",null,[(z(!0),Q(le,null,Fe(n.atmo.images_list,(l,a)=>(z(),Q("li",{key:a,class:Xe(l.type),onClick:u=>this.$router.push(l.link)},[Ht(H("img",hf,null,512),[[c,l.url]]),H("div",pf,[(z(!0),Q(le,null,Fe(l.hover,(u,h)=>(z(),Q("p",{key:h},Ce(u),1))),128))])],10,df))),128))])])])}const mf=He(af,[["render",gf],["__scopeId","data-v-b4d030cb"]]);const _f={data(){return{}},props:{partner:Object},components:{pageSectionTitle:Ei}},vf={id:"partner"},bf={class:"wrap"},yf=["alt"];function Af(e,t,n,r,s,o){const i=Pe("pageSectionTitle"),c=qr("lazy");return z(),Q("section",vf,[H("div",bf,[G(i,{title:n.partner.title},null,8,["title"]),H("ul",null,[(z(!0),Q(le,null,Fe(n.partner.partner_list,(l,a)=>(z(),Q("li",{key:a},[Ht(H("img",{alt:l.name},null,8,yf),[[c,l.url]])]))),128))])])])}const wf=He(_f,[["render",Af],["__scopeId","data-v-ef574d73"]]),Ef={data(){return{banner:this.router_view.index.banner,about:this.router_view.index.about,atmo:this.router_view.index.atmo,partner:this.router_view.index.partner}},props:{router_view:Object},components:{pageBanner:Ku,indexAbout:tf,indexAtom:mf,indexPartner:wf}};function xf(e,t,n,r,s,o){const i=Pe("pageBanner"),c=Pe("indexAbout"),l=Pe("indexAtom"),a=Pe("indexPartner");return z(),Q(le,null,[G(i,{banner:s.banner},null,8,["banner"]),G(c,{about:s.about},null,8,["about"]),G(l,{atmo:s.atmo},null,8,["atmo"]),G(a,{partner:s.partner},null,8,["partner"])],64)}const Cf=He(Ef,[["render",xf]]),xi=su({history:ya("/"),routes:[{path:"/",component:Cf,meta:{title:"首页 - 傲合发展有限公司"}},{path:"/story",component:()=>St(()=>import("./StoryView-4c1cb4d4.js"),["assets/StoryView-4c1cb4d4.js","assets/StoryView-b8f419ae.css"]),meta:{title:"傲合故事 - 傲合发展有限公司"}},{path:"/product",component:()=>St(()=>import("./ProductView-15477699.js"),["assets/ProductView-15477699.js","assets/ProductView-282d82fb.css"]),meta:{title:"公司产品 - 傲合发展有限公司"}},{path:"/develop",component:()=>St(()=>import("./DevelopView-44d245b9.js"),["assets/DevelopView-44d245b9.js","assets/DevelopView-f367eaf9.css"]),meta:{title:"发展空间 - 傲合发展有限公司"}},{path:"/benefit",component:()=>St(()=>import("./BenefitView-f2b11961.js"),["assets/BenefitView-f2b11961.js","assets/BenefitView-27a998ae.css"]),meta:{title:"公司福利 - 傲合发展有限公司"}},{path:"/workmate",component:()=>St(()=>import("./WorkmateView-e7af8825.js"),["assets/WorkmateView-e7af8825.js","assets/WorkmateView-41a8700b.css"]),meta:{title:"员工风采 - 傲合发展有限公司"}},{path:"/contact",component:()=>St(()=>import("./ContactView-f345a8a0.js"),["assets/ContactView-f345a8a0.js","assets/ContactView-e3d82f6e.css"]),meta:{title:"加入我们 - 傲合发展有限公司"}}],scrollBehavior(e,t,n){return{top:0}}});/*!
+`,toggle_job:!1},{name:"供应链助理（宁波）",details:`工作职责
+1、负责采购报价/跟单，配合供应链部门工作的执行及跟进；
+2、整理供应商资料和各种报价表，搜集样品并登记存档，维护供应商档案；
+3、按模板拟定采购合同并负责执行跟进，跟踪控制交货期和产品质量;
+4、协助安排出货包装和物流/船务，核对账款发票；
+5、各项资料、数据的收集、统计及ERP录入和更新;
+6、积极与团队人员沟通，及时了解需求及计划，做好成本控制；
+7、完成上级交办的其他事情。
+
+职位要求:
+1、大专以上学历，一年以上工作经验优先;
+2、熟悉采购/物流/船务流程
+3、熟练运用办公软件和ERP系统，效率高;
+4、较强的安全意识和保密意识，学习能力强;
+5、做事细心，有责任感强。
+
+福利待遇
+1、无业绩综合底薪、月度绩效奖金、十三个月工资、年终奖；
+2、良好的职业发展通道，灵活的内部晋升、调岗机制；
+3、上班时间：9:00-12:30；14:00-17:30；
+4、休假制度：每周双休，享有法定节假日、带薪年假、婚假、产假、每月1天带薪病假；
+5、五险一金：公司为员工购买养老、医疗、失业、工伤和生育保险、住房公积金；
+6、公司福利：年会活动/年底双薪/团队旅游/团队派对/节日礼物/生日惊喜/下午茶。`,toggle_job:!1},{name:"结构工程师",details:`一、岗位职责：
+1、负责公司新产品设计开发工作，包括功能/结构/技术文案等方案设计；
+2、与供应商/运营/采购/质量团队沟通协调，一起努力工作，推进新产品项目进展达成按时上线目标；
+3、结合市场客户反馈，评估产品痛点及客户市场需求，持续迭代更新产品设计和质量提升；
+4、需要协调和负责与新产品项目/新产品导入市场上线等相关的供应商选择和采购工作。
+
+二、岗位要求：
+1、专科及以上学历，工程类专业毕业；
+2、有较丰富的产品设计开发（功能/结构设计）经验优先；
+3、有升降桌或显示器支架等人体工学类产品设计研发经验优先；
+4、注重细节，思维活跃，逻辑性强，沟通协作能力强；
+5、诚实正直，有良好的职业道德和素养，对待工作有耐心和责任心，工作积极主动、有担当，有较强的学习能力，热爱跨境电商行业。
+6、需持有C牌驾照，能驾车出差。
+
+三、福利待遇
+1、无业绩综合底薪8000-15000元，十三个月工资、月度绩效奖金、年终奖；
+2、良好的职业发展通道，灵活的内部晋升、调岗机制；
+3、上班时间：9:00-12:30；14:00-17:30；
+4、休假制度：每周双休，享有法定节假日、带薪年假、婚假、产假、每月1天带薪病假；
+5、五险一金：公司为员工购买养老、医疗、失业、工伤和生育保险、住房公积金；
+6、公司福利：全勤奖/年会活动/年底双薪/团队旅游/团队派对/节日礼物/生日惊喜/下午茶。`,toggle_job:!1},{name:"西班牙语外贸员（广州）",details:`岗位职责：
+1、 业务开拓：积极利用阿里巴巴等外贸平台和社交媒体，线下线上展会多渠道开发客户。
+2、 订单跟进：及时响应客户需求，进行产品报价、商务谈判、合同签订、样品跟进工作。
+3、 客户关系维护：熟悉传统外贸流程，电话邮件跟进大客户，与客户保持良好的沟通，维护新老客户的关系，客户档案建立和管理工作。
+4、 汇报工作：掌握客户需求，完成拓客任务指标，定期总结汇报工作。
+5、 数据分析：分析行业市场情况，不同海外市场诉求和经济环境，及时掌握工厂生产动态和供需情况，了解供求情况，做好风险控制。
+6、 完成上级交办的各项商务工作任务。
+
+岗位要求：
+1、 本科以上学历，西班牙语专业，西班牙语4级。
+2、 三年以上传统外贸工作经验，优秀的应届生也可考虑。
+3、 有良好的谈判和沟通技巧，能够有效的开发客户和维护客户。
+4、 熟悉外贸操作的各种流程及参加展会的经验，工作积极主动，善于解决问题，有责任心。
+
+公司福利：
+1. 无责任综合底薪+月度绩效奖金+年底双薪+年度总经理嘉奖。
+2. 良好的职业发展通道，灵活的内部晋升、调岗机制！
+3. 上班时间：9:00-12:30；14:00-17:30
+4. 休假制度：每周双休，享有法定节假日、带薪年假、婚假、产假、每月 1天带薪病假；
+5. 五险一金：公司为员工购买养老、医疗、失业、工伤和生育保险、住房公积金；
+6. 完善的培训体系：关注员工成长，公司内部提供从平台规则至运营推广等各岗位的系统培训课程，给优秀员工提供外出培训、学习机会；
+7. 公司福利：全勤奖/年会活动/年底双薪/团队旅游/团队派对/节日礼物/生日惊喜/下午茶。`,toggle_job:!1},{name:"平面设计",details:`【岗位职责】：
+1、负责公司社交媒体营销平台（facebook、YouTube等）及独立站的广告活动推广海报；
+2、制作公司各种宣传资料、产品说明书及内外包装设计；
+3、负责公司亚马逊平台销售产品相关主图和附图的后期处理，store图片排版设计等工作；
+
+【任职要求】
+1、二年以上设计工作经验，美工设计相关专业毕业者优先；
+2、精通photoshop，掌握Coreldraw、AI。
+3、在电商美工方面具有良好的创意构思能力和优异的综合视觉把握能力；拥有大胆的设计思想，勇于提出自己的创作灵感；
+4、具有良好的审美能力和网页整体布局能力，准确把握网站整体风格设计，较强的视觉表达能力；
+5、具有团队协作意识，良好的沟通表达能力，有良好的服务意识，工作认真细致、积极主动、有耐心和责任心，有较强的学习、接受能力，爱跨 境电商行业。
+
+【福利待遇】
+1. 无业绩综合底薪。月度绩效奖金、十三个月工资、年度总经理嘉奖。高薪聘请能力强者；
+2. 良好的职业发展通道，灵活的内部晋升、调岗机制！
+3. 上班时间：9:00-12:30；14:00-17:30
+4. 休假制度：每周双休，享有法定节假日、带薪年假、婚假、产假、每月1天带薪病假；
+5. 五险一金：公司为员工购买养老、医疗、失业、工伤和生育保险、住房公积金；
+6. 完善的培训体系：关注员工成长，公司内部提供从平台规则至运营推广等各岗位的系统培训课程，给优秀员工提供外出培训、学习机会；
+7. 公司福利：全勤奖/年会活动/年底双薪/团队旅游/团队派对/节日礼物/生日惊喜/下午茶。`,toggle_job:!1}]}}}}}},components:{pageHeader:Au,pageFooter:Cu,pageScrolltop:Pu}},Iu={id:"page_container"};function Lu(e,t,n,r,s,o){const i=Pe("pageHeader"),c=Pe("RouterView"),l=Pe("pageFooter"),a=Pe("pageScrolltop");return z(),Q(le,null,[G(i,{router_list:s.pageData.router_list,header:s.pageData.page.header,language:s.language},null,8,["router_list","header","language"]),H("div",Iu,[G(c,{router_view:s.pageData.router_view},null,8,["router_view"])]),G(l,{router_list:s.pageData.router_list,footer:s.pageData.page.footer},null,8,["router_list","footer"]),G(a,{scroll_top:s.pageData.page.scroll_top},null,8,["scroll_top"])],64)}const ku=He(Su,[["render",Lu]]),$u="modulepreload",Mu=function(e){return"/"+e},lo={},St=function(t,n,r){if(!n||n.length===0)return t();const s=document.getElementsByTagName("link");return Promise.all(n.map(o=>{if(o=Mu(o),o in lo)return;lo[o]=!0;const i=o.endsWith(".css"),c=i?'[rel="stylesheet"]':"";if(!!r)for(let u=s.length-1;u>=0;u--){const h=s[u];if(h.href===o&&(!i||h.rel==="stylesheet"))return}else if(document.querySelector(`link[href="${o}"]${c}`))return;const a=document.createElement("link");if(a.rel=i?"stylesheet":$u,i||(a.as="script",a.crossOrigin=""),a.href=o,document.head.appendChild(a),i)return new Promise((u,h)=>{a.addEventListener("load",u),a.addEventListener("error",()=>h(new Error(`Unable to preload CSS for ${o}`)))})})).then(()=>t())};const Nu={data(){return{banner:this.banner}},props:{banner:Object}},Bu={id:"banner"},Fu={class:"noswiper"},Du=["src"],Hu={key:0,class:"img_hover"},ju=["src"],Uu={key:1,class:"text_hover"};function zu(e,t,n,r,s,o){return z(),Q("section",Bu,[H("div",Fu,[H("img",{src:n.banner.url,alt:"",class:Xe({img_blur_heavy:!n.banner.hover_img})},null,10,Du),n.banner.hover_img?(z(),Q("div",Hu,[H("img",{src:n.banner.hover_img,alt:""},null,8,ju),(z(!0),Q(le,null,Fe(n.banner.hover,(i,c)=>(z(),Q("p",{key:c},Ce(i),1))),128))])):jt("",!0),n.banner.hover_img?jt("",!0):(z(),Q("div",Uu,[(z(!0),Q(le,null,Fe(n.banner.hover,(i,c)=>(z(),Q("p",{key:c,class:Xe("text_hover_p"+(c+1))},Ce(i),3))),128))]))])])}const Ku=He(Nu,[["render",zu],["__scopeId","data-v-c9a19ddb"]]);const Wu={data(){return{}},props:{about:Object}},Qu=e=>(Uo("data-v-b76f46c8"),e=e(),zo(),e),Vu={id:"about"},qu={class:"wrap"},Ju={class:"left shadow"},Yu={class:"title"},Gu=Qu(()=>H("div",{class:"gap_line"},[H("div",{class:"gap_dot"})],-1)),Xu={class:"right"},Zu={alt:""};function ef(e,t,n,r,s,o){const i=qr("lazy");return z(),Q("section",Vu,[H("div",qu,[H("div",Ju,[H("p",Yu,Ce(n.about.about_title),1),Gu,(z(!0),Q(le,null,Fe(n.about.about_description,(c,l)=>(z(),Q("p",{class:"desc",key:l},Ce(c),1))),128)),H("p",{class:"more",onClick:t[0]||(t[0]=c=>this.$router.push("/story"))},Ce(n.about.about_more),1)]),H("div",Xu,[Ht(H("img",Zu,null,512),[[i,n.about.about_img.url]]),H("span",null,Ce(n.about.about_img.hover),1)])])])}const tf=He(Wu,[["render",ef],["__scopeId","data-v-b76f46c8"]]);const nf={data(){return{}},props:{title:String}},rf=e=>(Uo("data-v-3f7d560d"),e=e(),zo(),e),sf={class:"section_title"},of={class:"title"},lf=rf(()=>H("div",{class:"gap_line"},[H("div",{class:"gap_dot"})],-1));function cf(e,t,n,r,s,o){return z(),Q("div",sf,[H("p",of,Ce(n.title),1),lf])}const Ei=He(nf,[["render",cf],["__scopeId","data-v-3f7d560d"]]);const af={data(){return{}},props:{atmo:Object},components:{pageSectionTitle:Ei}},uf={id:"atmosphere"},ff={class:"wrap"},df=["onClick"],hf={alt:""},pf={class:"img_hover"};function gf(e,t,n,r,s,o){const i=Pe("pageSectionTitle"),c=qr("lazy");return z(),Q("section",uf,[H("div",ff,[G(i,{title:n.atmo.title},null,8,["title"]),H("ul",null,[(z(!0),Q(le,null,Fe(n.atmo.images_list,(l,a)=>(z(),Q("li",{key:a,class:Xe(l.type),onClick:u=>this.$router.push(l.link)},[Ht(H("img",hf,null,512),[[c,l.url]]),H("div",pf,[(z(!0),Q(le,null,Fe(l.hover,(u,h)=>(z(),Q("p",{key:h},Ce(u),1))),128))])],10,df))),128))])])])}const mf=He(af,[["render",gf],["__scopeId","data-v-b4d030cb"]]);const _f={data(){return{}},props:{partner:Object},components:{pageSectionTitle:Ei}},vf={id:"partner"},bf={class:"wrap"},yf=["alt"];function Af(e,t,n,r,s,o){const i=Pe("pageSectionTitle"),c=qr("lazy");return z(),Q("section",vf,[H("div",bf,[G(i,{title:n.partner.title},null,8,["title"]),H("ul",null,[(z(!0),Q(le,null,Fe(n.partner.partner_list,(l,a)=>(z(),Q("li",{key:a},[Ht(H("img",{alt:l.name},null,8,yf),[[c,l.url]])]))),128))])])])}const wf=He(_f,[["render",Af],["__scopeId","data-v-ef574d73"]]),Ef={data(){return{banner:this.router_view.index.banner,about:this.router_view.index.about,atmo:this.router_view.index.atmo,partner:this.router_view.index.partner}},props:{router_view:Object},components:{pageBanner:Ku,indexAbout:tf,indexAtom:mf,indexPartner:wf}};function xf(e,t,n,r,s,o){const i=Pe("pageBanner"),c=Pe("indexAbout"),l=Pe("indexAtom"),a=Pe("indexPartner");return z(),Q(le,null,[G(i,{banner:s.banner},null,8,["banner"]),G(c,{about:s.about},null,8,["about"]),G(l,{atmo:s.atmo},null,8,["atmo"]),G(a,{partner:s.partner},null,8,["partner"])],64)}const Cf=He(Ef,[["render",xf]]),xi=su({history:ya("/"),routes:[{path:"/",component:Cf,meta:{title:"首页 - 傲合发展有限公司"}},{path:"/story",component:()=>St(()=>import("./StoryView-9714e62a.js"),["assets/StoryView-9714e62a.js","assets/StoryView-b8f419ae.css"]),meta:{title:"傲合故事 - 傲合发展有限公司"}},{path:"/product",component:()=>St(()=>import("./ProductView-f6699961.js"),["assets/ProductView-f6699961.js","assets/ProductView-282d82fb.css"]),meta:{title:"公司产品 - 傲合发展有限公司"}},{path:"/develop",component:()=>St(()=>import("./DevelopView-da8d81f5.js"),["assets/DevelopView-da8d81f5.js","assets/DevelopView-f367eaf9.css"]),meta:{title:"发展空间 - 傲合发展有限公司"}},{path:"/benefit",component:()=>St(()=>import("./BenefitView-fab74ea3.js"),["assets/BenefitView-fab74ea3.js","assets/BenefitView-27a998ae.css"]),meta:{title:"公司福利 - 傲合发展有限公司"}},{path:"/workmate",component:()=>St(()=>import("./WorkmateView-45ff39bf.js"),["assets/WorkmateView-45ff39bf.js","assets/WorkmateView-41a8700b.css"]),meta:{title:"员工风采 - 傲合发展有限公司"}},{path:"/contact",component:()=>St(()=>import("./ContactView-2c8579c2.js"),["assets/ContactView-2c8579c2.js","assets/ContactView-e3d82f6e.css"]),meta:{title:"加入我们 - 傲合发展有限公司"}}],scrollBehavior(e,t,n){return{top:0}}});/*!
  * Vue-Lazyload.js v3.0.0
  * (c) 2023 Awe <hilongjw@gmail.com>
  * Released under the MIT License.
